@@ -101,6 +101,10 @@ li{
   color:#fff;
   background-image: url('../images/newsnavhover.PNG');
 }
+.contactNavActive{
+  color:#fff;
+  background-image: url('../images/newsnavhover.PNG');
+}
 .newsDownColor{
   width: 1852px;
   margin: 0 auto;
@@ -155,7 +159,7 @@ li{
   margin-left: -70px;
   background-image: url(../images/toutiaologo.png);
 }
-.newsSectonMin{
+.newsSectonMin,.contactSection{
   width: 100%;
   background-image: url(../images/bg.jpg);
 }
@@ -262,4 +266,42 @@ footer>p{
 }
 footer>p:nth-child(2){
   margin-top: 18px;
+}
+/* footer开始 */
+
+/* 新闻中心结束 */
+
+/* 联系我们开始 */
+
+.contactBanner{
+  width: 100%;
+  background-image: url('../images/contactBanner.jpg');
+  padding-top: 888px;
+}
+
+.contactPhone{
+  padding-top: 88px;
+  width: 960px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.contactPhoneL{
+  display: flex;
+  padding: 43px 152px 43px 87px;
+  border-top: 4px solid #000;
+  border-left: 4px solid #000;
+  border-bottom: 4px solid #000;
+  align-items: center;
+}
+.contactPhonein{
+  width: 126px;
+  text-align: center;
+  margin-left: 16px;
+}
+.contactPhonein>p:nth-child(1){
+  font-size: 25px
+}
+.contactPhonein>p:nth-child(2){
+  font-size: 18px;
 }
