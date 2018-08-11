@@ -241,3 +241,25 @@ li{
   background: #fca903;
 }
 /* section结束 */
+/* footer开始 */
+footer{
+  width: 100%;
+  margin-top: 100px;
+  background-image: url('../images/newsdown.png');
+  padding-top: 138px;
+}
+.newsDownLogo{
+  margin: 0 auto;
+  background-image: url(../images/newsdownlogo.PNG);
+  width: 180px;
+  height: 180px;
+}
+footer>p{
+  text-align: center;
+  color:#fff;
+  line-height: 36px;
+  font-size: 16px;
+}
+footer>p:nth-child(2){
+  margin-top: 18px;
+}
