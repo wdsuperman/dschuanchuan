@@ -105,6 +105,10 @@ li{
   color:#fff;
   background-image: url('../images/newsnavhover.PNG');
 }
+.brandNaveActive{
+  color:#fff;
+  background-image: url('../images/newsnavhover.PNG');
+}
 .newsDownColor{
   width: 1852px;
   margin: 0 auto;
@@ -555,3 +559,12 @@ footer>p:nth-child(2){
   height: 210px;
 }
 /* section结束 */
+
+/* 加盟中心结束 */
+
+/* 品牌介绍开始 */
+
+.brandBanner{
+  background-image: url('../images/brandbanner.png');
+  padding-top: 888px;
+}
