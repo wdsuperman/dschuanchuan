@@ -422,7 +422,6 @@ footer>p:nth-child(2){
   background-image: url(../images/joinMinPic.png);
   padding-bottom: 64px;
   margin-top: 62px;
-  margin-bottom: 92px;
 }
 .joinMinPicin{
   width: 1200px;
@@ -472,6 +471,7 @@ footer>p:nth-child(2){
   height: 154px;
   border: 2px solid #000;
   margin: 0 auto;
+  margin-top: 92px;
 }
 .joinSectionDown>div{
   width: 200px;
@@ -489,3 +489,69 @@ footer>p:nth-child(2){
   font-size: 20px;
   color: #737373;
 }
+.joinJiameng{
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.joinJiameng>div{
+  border-radius: 50%;
+  border: 2px solid #000;
+  padding: 10px;
+  margin-top: 62px;
+}
+.joinJiameng>div>p{
+  text-align: center;
+}
+.joinJiameng>div>p:nth-child(2){
+  font-size: 22px;
+  line-height: 30px;
+}
+.joinJiameng>div>p:nth-child(3){
+  font-size: 12px;
+  padding-bottom: 12px;
+}
+.joinTechnology{
+  display: flex;
+  width: 964px;
+  margin: 0 auto;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.joinTechnology>div{
+  width: 290px;
+}
+.joinTechnology>div>p{
+  text-align: center;
+  font-size: 20px;
+  font-weight:bold;
+  line-height: 28px;
+}
+.joinTechnologyin{
+  border: 2px solid #000;
+  border-radius: 2px ;
+  margin-top: 14px;
+}
+.joinTechnologyin>div{
+  background-image: url(../images/joinTechnology1.PNG);
+  padding-top: 278px;
+}
+.joinTechnologyin1>div{
+  background-image: url(../images/joinTechnology2.PNG);
+}
+.joinTechnologyin2>div{
+  background-image: url(../images/joinTechnology3.PNG);
+}
+.joinTechnologyin>div>div{
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  line-height: 34px;
+}
+.joinTechnologyin>div>div>p{
+  width: 238px;
+  margin: 0 auto;
+  height: 210px;
+}
+/* section结束 */
