@@ -159,7 +159,7 @@ li{
   margin-left: -70px;
   background-image: url(../images/toutiaologo.png);
 }
-.newsSectonMin,.contactSection{
+.newsSectonMin,.contactSection,.joinSection{
   width: 100%;
   background-image: url(../images/bg.jpg);
 }
@@ -279,8 +279,11 @@ footer>p:nth-child(2){
   padding-top: 888px;
 }
 
+/* section开始 */
+.joinpadding{
+  margin-bottom: 88px;
+}
 .contactPhone{
-  padding-top: 88px;
   width: 960px;
   display: flex;
   margin: 0 auto;
@@ -375,4 +378,91 @@ footer>p:nth-child(2){
   margin-top: 22px;
   color: #fff;
   border-radius: 3px;
+}
+/* section结束 */
+
+/* 联系我们结束 */
+
+/* 加盟中心开始 */
+
+.joinBanner{
+  width: 100%;
+  background-image: url('../images/joinbanner.png');
+  padding-top: 888px;
+}
+.joinNaveActive{
+  color:#fff;
+  background-image: url('../images/newsnavhover.PNG');
+}
+/* section开始 */
+.joinCore{
+  width: 465px;
+  margin-top: 88px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  text-align: center;
+}
+.joinCoreEng{
+  font-size: 12px;
+  color:#ff0000;
+  width: 224px;
+  margin: 0 auto;
+  letter-spacing:-1px;
+  background-color: #fff;
+  margin-top: -11px;
+}
+.joinCoreText{
+  font-size: 34px;
+  line-height: 74px;
+}
+.joinMinPic{
+  width: 100%;
+  padding-top: 80px;
+  background-image: url(../images/joinMinPic.png);
+  padding-bottom: 64px;
+  margin-top: 62px;
+  margin-bottom: 92px;
+}
+.joinMinPicin{
+  width: 1200px;
+  margin: 0 auto;
+}
+.joinDianpu{
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.joinDianpu>div>p{
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 0px;
+  margin-top: 22px;
+}
+.joinsanda{
+  font-size: 18px;
+  color: #fff;
+  width: 1076px;
+  margin: 0 auto;
+  line-height: 30px;
+  margin-top: 50px;
+}
+.joinLine{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 860px;
+  margin-top: 42px;
+}
+.joinLine>div{
+  padding: 49px 60px 37px 60px;
+  border:2px solid #fff;
+}
+.joinLine>div>p{
+  font-size: 22px;
+  text-align: center;
+  color:#fff;
+  line-height: 0px;
+  margin-top: 20px;
 }
