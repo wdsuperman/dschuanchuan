@@ -15,11 +15,14 @@ li{
   list-style: none;
 }
 /* 新闻中心开始 */
+
 .wrap{
   width: 100%;
   overflow: hidden;
 }
+
 /* banner开始 */
+
 .newsBanner{
   width: 100%;
   background-image: url('../images/newsBannner.jpg');
@@ -69,9 +72,11 @@ li{
   z-index: 0;
   left: 0;
 }
+
 /* banner结束 */
 
 /* section开始 */
+
 .newsSectionTop{
   width: 100%;
   border-bottom: 2px solid #383937;
@@ -248,8 +253,11 @@ li{
 .newsPages>li>a:hover{
   background: #fca903;
 }
+
 /* section结束 */
+
 /* footer开始 */
+
 footer{
   width: 100%;
   margin-top: 100px;
@@ -284,6 +292,7 @@ footer>p:nth-child(2){
 }
 
 /* section开始 */
+
 .joinpadding{
   margin-bottom: 88px;
 }
@@ -400,6 +409,7 @@ footer>p:nth-child(2){
   background-image: url('../images/newsnavhover.PNG');
 }
 /* section开始 */
+
 .joinCore{
   width: 465px;
   margin-top: 88px;
