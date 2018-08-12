@@ -74,7 +74,7 @@ li{
 /* section开始 */
 .newsSectionTop{
   width: 100%;
-  border-bottom: 2px solid #b8b8b7;
+  border-bottom: 2px solid #383937;
 }
 .newsSectionnav{
   width: 1200px;
@@ -287,6 +287,7 @@ footer>p:nth-child(2){
   width: 960px;
   display: flex;
   margin: 0 auto;
+  margin-top: 88px;
   justify-content: space-between;
 }
 .contactPhoneL{
@@ -465,4 +466,26 @@ footer>p:nth-child(2){
   color:#fff;
   line-height: 0px;
   margin-top: 20px;
+}
+.joinSectionDown{
+  width: 90px;
+  height: 154px;
+  border: 2px solid #000;
+  margin: 0 auto;
+}
+.joinSectionDown>div{
+  width: 200px;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-left: -54px;
+  margin-top: 38px; 
+
+}
+.joinSectionDown>div>p:nth-child(1){
+  font-size: 36px;
+}
+.joinSectionDown>div>p:nth-child(2){
+  font-size: 20px;
+  color: #737373;
 }
