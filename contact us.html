@@ -70,4 +70,18 @@
       </footer>
   </div>
 </body>
+<script>
+  window.onscroll = function(){
+    var t = document.documentElement.scrollTop || document.body.scrollTop;
+    let a =  document.querySelector(".newsSectionTop")
+    let b =  document.querySelector(".newsJRTT")
+    if(t > 694){
+      a.style = " position: fixed; top : 0" 
+      b.style = " margin-top : 192px"
+    }else if(t < 694){
+      a.style = "" 
+      b.style = ""
+    }
+  }
+</script>
 </html>

@@ -26,6 +26,31 @@
     </div>
     <div class="newsDownColor joinpadding">   
     </div>
+    <div class="brandSection">
+      <div class="brandHuoguo">
+        <div class="brandXG"></div>
+        <div class="brandHuoguoText">
+          <p>项目名称：<span>熟悉的串串</span></p>
+          <p>项目属性：<span>中小型投资，串串香麻辣烫项目</span></p>
+          <p>项目定位：<span>汤好，有料，老味道</span></p>
+          <p>目标人群：<span>14-70岁老中青三代</span></p>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
+<script>
+  window.onscroll = function(){
+    var t = document.documentElement.scrollTop || document.body.scrollTop;
+    let a =  document.querySelector(".newsSectionTop")
+    let b =  document.querySelector(".newsJRTT")
+    if(t > 694){
+      a.style = " position: fixed; top : 0" 
+      b.style = " margin-top : 192px"
+    }else if(t < 694){
+      a.style = "" 
+      b.style = ""
+    }
+  }
+</script>
 </html>

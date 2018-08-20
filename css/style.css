@@ -14,6 +14,67 @@ a{
 li{
   list-style: none;
 }
+
+@-webkit-keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 1deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -1deg);
+    transform: rotate3d(0, 0, 1, -2deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 1deg);
+    transform: rotate3d(0, 0, 1, 2deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -1deg);
+    transform: rotate3d(0, 0, 1, -2deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+.swing {
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
+} 
 /* 新闻中心开始 */
 
 .wrap{
@@ -80,6 +141,7 @@ li{
 .newsSectionTop{
   width: 100%;
   border-bottom: 2px solid #383937;
+  background-color: #fff;
 }
 .newsSectionnav{
   width: 1200px;
@@ -113,6 +175,11 @@ li{
 .brandNaveActive{
   color:#fff;
   background-image: url('../images/newsnavhover.PNG');
+}
+.newsNav>li>.LOGO:hover{
+  background-image: none;
+  animation: swing 1s infinite;
+  transform-origin: 50% 0;
 }
 .newsDownColor{
   width: 1852px;
@@ -168,7 +235,7 @@ li{
   margin-left: -70px;
   background-image: url(../images/toutiaologo.png);
 }
-.newsSectonMin,.contactSection,.joinSection{
+.newsSectonMin,.contactSection,.joinSection,.brandSection{
   width: 100%;
   background-image: url(../images/bg.jpg);
 }
@@ -577,4 +644,29 @@ footer>p:nth-child(2){
 .brandBanner{
   background-image: url('../images/brandbanner.png');
   padding-top: 888px;
+}
+.brandHuoguo{
+  width: 1152px;
+  height: 303px;
+  margin: 0 auto;
+  background-image: url(../images/brandjing.png);
+  border: 4px solid #000;
+  display: flex;
+}
+.brandXG{
+  background-image: url('../images/brandXG.png');
+  width: 523px;
+  height: 392px;
+  margin-top: -50px;
+  margin-left: 40px;
+}
+.brandHuoguoText{
+  margin-left: 134px;
+}
+.brandHuoguoText>p{
+  font-size: 18px;
+  line-height: 54px;
+}
+.brandHuoguoText>p>span{
+  font-size: 16px;
 }
