@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <title>熟悉的串串</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
   <div class="wrap">
     <div class="brandBanner">
@@ -14,43 +16,101 @@
     <div class="newsSectionTop">
       <div class="newsSectionnav">
         <ul class="newsNav">
-          <li><a class="brandNaveActive" href="#">品牌介绍</a></li>
-          <li><a href="#">形象展示</a></li>
-          <li><a href="#">产品展示</a></li>
-          <li><img src="./images/logo.png" alt=""></li>
-          <li><a href="./news.html">新闻中心</a></li>
-          <li><a href="./join.html">加盟中心</a></li>
-          <li><a href="./contact us.html">联系我们</a></li>
+          <li>
+            <a class="brandNaveActive" href="#">品牌介绍</a>
+          </li>
+          <li>
+            <a href="#">形象展示</a>
+          </li>
+          <li>
+            <a href="#">产品展示</a>
+          </li>
+          <li>
+            <img src="./images/logo.png" alt="">
+          </li>
+          <li>
+            <a href="./news.html">新闻中心</a>
+          </li>
+          <li>
+            <a href="./join.html">加盟中心</a>
+          </li>
+          <li>
+            <a href="./contact us.html">联系我们</a>
+          </li>
         </ul>
       </div>
     </div>
-    <div class="newsDownColor joinpadding">   
+    <div class="newsDownColor joinpadding">
     </div>
     <div class="brandSection">
       <div class="brandHuoguo">
         <div class="brandXG"></div>
         <div class="brandHuoguoText">
-          <p>项目名称：<span>熟悉的串串</span></p>
-          <p>项目属性：<span>中小型投资，串串香麻辣烫项目</span></p>
-          <p>项目定位：<span>汤好，有料，老味道</span></p>
-          <p>目标人群：<span>14-70岁老中青三代</span></p>
+          <p>项目名称：
+            <span>熟悉的串串</span>
+          </p>
+          <p>项目属性：
+            <span>中小型投资，串串香麻辣烫项目</span>
+          </p>
+          <p>项目定位：
+            <span>汤好，有料，老味道</span>
+          </p>
+          <p>目标人群：
+            <span>14-70岁老中青三代</span>
+          </p>
+        </div>
+      </div>
+      <p class="chuanchuanText">熟悉的串串，熟悉的味道，新中式快餐麻辣烫品牌，兼具冷锅、热锅双重属性，并涵盖麻辣小龙虾、酸辣粉、新派火锅、面点厨房、宵夜烤串、时尚流行饮品等等，蟾皮你丰富，打破传统麻辣烫局面，四季火爆。</p>
+      <div class="joinSectionDown brandSectionDown">
+        <div>
+          <p>源为江水</p>
+          <p>三沸三煮成浓汤</p>
+        </div>
+      </div>
+      <div class="brandSectionYWJS">
+        <img class="brandJS" src="./images/brandjs.png" alt="">
+      </div>
+      <div class="brandSection3cp">
+        <img src="./images/brandYWJS1.png" alt="">
+        <img src="./images/brandYWJS2.png" alt="">
+        <img src="./images/brandYWJS3.png" alt="">
+      </div>
+      <div class="brandSectionZL">
+        <div>
+          <span class="ZLtext">一沸一煮出汤色</span>
+          <p class="ZLp">在水第一次沸腾时加入猪骨、猪油，经过6小时的大火熬煮之后，煮出大骨中的胶原蛋白，汤底成乳白奶色，散发着醇厚馥郁的想起，长时间熬煮让猪骨内营养与汤底彻底融合，即使在炎热的夏季也丝毫不会感觉油腻。</p>
+        </div>
+        <div>
+          <span class="ZLtext">二沸二煮出香料</span>
+          <p class="ZLp">乳白色的汤底第二次沸腾时，下入十余种香料搭配的串串军秘制的核心料包，经过两个小时的沸煮，与奶白色汤底充分融合，煮出来的串串君汤底浓郁香气。</p>
+        </div>
+        <div>
+          <span class="ZLtext">三沸三煮出食味</span>
+          <p class="ZLp">第三次汤底沸腾时按先荤后素的顺序下入食材，煮出食材中的鲜嫩味道，出锅后一口咬下，汁水从食材中溢出，美味入喉的瞬间完成第一次“麻辣烫”的仪式。</p>
+        </div>
+      </div>
+      <div class="joinSectionDown lrsg">
+        <div>
+          <p>冷热双锅</p>
+          <p>美食多</p>
         </div>
       </div>
     </div>
   </div>
 </body>
 <script>
-  window.onscroll = function(){
-    var t = document.documentElement.scrollTop || document.body.scrollTop;
-    let a =  document.querySelector(".newsSectionTop")
-    let b =  document.querySelector(".newsJRTT")
-    if(t > 694){
-      a.style = " position: fixed; top : 0" 
-      b.style = " margin-top : 192px"
-    }else if(t < 694){
-      a.style = "" 
-      b.style = ""
-    }
-  }
+  // window.onscroll = function(){
+  //   var t = document.documentElement.scrollTop || document.body.scrollTop;
+  //   let a =  document.querySelector(".newsSectionTop")
+  //   let b =  document.querySelector(".newsJRTT")
+  //   if(t > 694){
+  //     a.style = " position: fixed; top : 0" 
+  //     b.style = " margin-top : 192px"
+  //   }else if(t < 694){
+  //     a.style = "" 
+  //     b.style = ""
+  //   }
+  // }
 </script>
+
 </html>
