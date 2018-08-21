@@ -645,11 +645,21 @@ footer>p:nth-child(2) {
 
 .joinSectionDown>div>p:nth-child(1) {
   font-size: 36px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .joinSectionDown>div>p:nth-child(2) {
   font-size: 20px;
   color: #737373;
+}
+
+.juzhong {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 36px;
+  margin-top: -180px;
+  margin-bottom: 142px;
 }
 
 .joinJiameng {
@@ -812,18 +822,21 @@ footer>p:nth-child(2) {
 .brandSection3cp>img:nth-child(3) {
   width: 700px;
 }
-.brandSectionZL{
+
+.brandSectionZL {
   width: 1160px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
-.brandSectionZL>div{
+
+.brandSectionZL>div {
   border: 4px solid #b6b6b6;
   width: 302px;
   height: 276px;
 }
-.ZLtext{
+
+.ZLtext {
   font-size: 28px;
   color: #144391;
   background-color: #fff;
@@ -833,13 +846,90 @@ footer>p:nth-child(2) {
   margin: 0 auto;
   margin-top: -22px;
 }
-.ZLp{
+
+.ZLp {
   font-size: 16px;
   line-height: 30px;
   width: 256px;
   margin: 0 auto;
   margin-top: 26px;
 }
-.lrsg{
+
+.lrsg {
   margin-top: 93px;
 }
+
+.brandSectionLRSG {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 94px;
+}
+
+.brandSectionLRSG>div {
+  display: flex;
+}
+
+.brandborder1 {
+  border-top: 3px solid #33a5c9;
+  border-bottom: 3px solid #33a5c9;
+}
+
+.brandborder2 {
+  border-top: 3px solid #ff0000;
+  border-bottom: 3px solid #ff0000;
+}
+
+.brandborder2 {
+  margin-left: -216px;
+}
+
+.brandZYYK {
+  font-size: 16px;
+  line-height: 40px;
+  width: 1088px;
+  margin: 0 auto;
+  margin-top: 28px;
+}
+
+.zltd {
+  margin-top: 82px;
+  margin-bottom: 68px;
+}
+
+.brandSectionDownCPJS {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.brandSectionDownCPJS>img {
+  width: 787px;
+  height: 1011px;
+  border: 5px solid #000;
+  border-radius: 5px;
+}
+
+.brandSectionDownCPJS>div>img {
+  width: 540px;
+  height: 769px;
+  margin-left: -80px;
+}
+
+.brandSectionDownCPJS>div>p {
+  line-height: 30px;
+  font-size: 16px;
+  width: 360px;
+  margin-left: 28px;
+  margin-top: 50px;
+}
+/*产品介绍结束*/
+
+/* 产品展示开始 */
+.showBanner{
+  width: 1920px;
+  padding-top: 888px;
+  background-image: url('../images/showbanner_01.jpg');
+}
+
+
+/* 产品展示结束 */
