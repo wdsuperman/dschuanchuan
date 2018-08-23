@@ -17,6 +17,9 @@ a {
 li {
   list-style: none;
 }
+body{
+  min-width: 1200px;
+}
 
 @-webkit-keyframes swing {
   20% {
@@ -435,11 +438,21 @@ footer>p:nth-child(2) {
 
 .contactChuan {
   width: 506px;
-  padding-top: 458px;
-  background-image: url('../images/contactchuanchuan.png');
-  background-repeat: no-repeat;
+  height: 458px;
 }
-
+.cyd {
+  width: 100%;
+  margin: 0 auto;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  position: relative;
+}
+#dituContent {
+  width: 100%;
+  height: 1017px;
+  
+  margin: 0 auto;
+}
 .contactMessage {
   padding: 12px 30px 28px 88px;
 }
