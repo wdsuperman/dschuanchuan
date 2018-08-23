@@ -10,33 +10,40 @@
 <body>
   <div class="wrap">
     <div class="newsBanner">
-      <div class="newsBannerBox">
-        <p class="newsFirst">FIRST</p>
-        <div class="newsMinBox">
-          <p class="newsKRYB">快人一步</p>
-          <p class="newsDown">Baltic Express</p>
-        </div>
-        <p class="newsZWZX">掌握最新财富资讯</p>
-        <p class="newsEng">Mastering the latest wealth information</p>
-      </div>
     </div>
     <div class="newsBoxColor">
     </div>
     <div class="newsSecti">
-      <div class="newsSectionTop">
+      <div class="newsSectionTop flex">
         <div class="newsSectionnav">
           <ul class="newsNav">
-            <li><a href="./brand.html">品牌介绍</a></li>
-            <li><a href="#">形象展示</a></li>
-            <li><a href="#">产品展示</a></li>
-            <li><a class="LOGO" href="#"><img src="./images/logo.png" alt=""></a></li>
-            <li><a class="newsNaveActive" href="#">新闻中心</a></li>
-            <li><a href="./join.html">加盟中心</a></li>
-            <li><a href="./contact us.html">联系我们</a></li>
+            <li>
+              <a href="./brand.html">品牌介绍</a>
+            </li>
+            <li>
+              <a href="./image display.html">形象展示</a>
+            </li>
+            <li>
+              <a href="./show.html">产品展示</a>
+            </li>
+            <li>
+              <a class="LOGO" href="./home.html">
+                <img src="./images/logo.png" alt="">
+              </a>
+            </li>
+            <li>
+              <a class="joinNaveActive" href="./news.html">新闻中心</a>
+            </li>
+            <li>
+              <a href="./join.html">加盟中心</a>
+            </li>
+            <li>
+              <a href="./contact us.html">联系我们</a>
+            </li>
           </ul>
         </div>
       </div>
-      <div class="newsDownColor">   
+      <div class="newsDownColor line">   
       </div>
       <div class="newsJRTT">
         <div class="newsJRTTmin">
@@ -146,12 +153,12 @@
 <script>
   window.onscroll = function(){
     var t = document.documentElement.scrollTop || document.body.scrollTop;
-    let a =  document.querySelector(".newsSectionTop")
-    let b =  document.querySelector(".newsJRTT")
-    if(t > 694){
+    let a =  document.querySelector(".flex")
+    let b =  document.querySelector(".line")
+    if(t > 888){
       a.style = " position: fixed; top : 0" 
-      b.style = " margin-top : 192px"
-    }else if(t < 694){
+      b.style = " margin-top : 210px"
+    }else if(t < 888){
       a.style = "" 
       b.style = ""
     }

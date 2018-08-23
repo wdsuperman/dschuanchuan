@@ -13,20 +13,22 @@
   <div class="wrap">
     <div class="brandBanner">
     </div>
-    <div class="newsSectionTop">
+    <div class="newsSectionTop flex">
       <div class="newsSectionnav">
         <ul class="newsNav">
           <li>
-            <a class="brandNaveActive" href="#">品牌介绍</a>
+            <a  class="joinNaveActive" href="./brand.html">品牌介绍</a>
           </li>
           <li>
-            <a href="#">形象展示</a>
+            <a href="./image display.html">形象展示</a>
           </li>
           <li>
-            <a href="#">产品展示</a>
+            <a href="./show.html">产品展示</a>
           </li>
           <li>
-            <img src="./images/logo.png" alt="">
+            <a class="LOGO" href="./home.html">
+              <img src="./images/logo.png" alt="">
+            </a>
           </li>
           <li>
             <a href="./news.html">新闻中心</a>
@@ -40,7 +42,7 @@
         </ul>
       </div>
     </div>
-    <div class="newsDownColor joinpadding">
+    <div class="newsDownColor joinpadding line">
     </div>
     <div class="brandSection">
       <div class="brandHuoguo">
@@ -132,18 +134,18 @@
   </div>
 </body>
 <script>
-  // window.onscroll = function(){
-  //   var t = document.documentElement.scrollTop || document.body.scrollTop;
-  //   let a =  document.querySelector(".newsSectionTop")
-  //   let b =  document.querySelector(".newsJRTT")
-  //   if(t > 694){
-  //     a.style = " position: fixed; top : 0" 
-  //     b.style = " margin-top : 192px"
-  //   }else if(t < 694){
-  //     a.style = "" 
-  //     b.style = ""
-  //   }
-  // }
+  window.onscroll = function(){
+    var t = document.documentElement.scrollTop || document.body.scrollTop;
+    let a =  document.querySelector(".flex")
+    let b =  document.querySelector(".line")
+    if(t > 888){
+      a.style = " position: fixed; top : 0" 
+      b.style = " margin-top :210px"
+    }else if(t < 888){
+      a.style = "" 
+      b.style = ""
+    }
+  }
 </script>
 
 </html>
