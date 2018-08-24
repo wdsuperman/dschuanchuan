@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>熟悉的串串</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/animate.css">
 </head>
 <body>
   <div class="wrap">
@@ -95,6 +96,19 @@
     var t = document.documentElement.scrollTop || document.body.scrollTop;
     let a =  document.querySelector(".flex")
     let b =  document.querySelector(".line")
+    let c = document.querySelector('.imageSectionAnyi')
+    let d = document.querySelector('.imageSectionDown>img:nth-child(1)')
+    let e = document.querySelector('.imageSectionDown>img:nth-child(2)')
+    let f = document.querySelector('.imageSectionDown>img:nth-child(4)')
+    let g = document.querySelector('.imageSectionDown>img:nth-child(3)')
+    let h = document.querySelector('.imageSectionDown>img:nth-child(5)')
+    let i = document.querySelector('.imageSectionDown>img:nth-child(6)')
+    let j = document.querySelector('.imageSectionDown>img:nth-child(8)')
+    let k = document.querySelector('.imageSectionDown>img:nth-child(7)')
+    let l = document.querySelector('.imageSectionDown>img:nth-child(9)')
+    let m = document.querySelector('.imageSectionDown>img:nth-child(10)')
+    let n = document.querySelector('.imageSectionDown>img:nth-child(11)')
+  
     if(t > 888){
       a.style = " position: fixed; top : 0" 
       b.style = " margin-top :210px"
@@ -102,6 +116,40 @@
       a.style = "" 
       b.style = ""
     }
+    if(t > 958){
+      c.style = "animation: fadeInUp 1.2s forwards;"
+    }
+    if(t > 2420){
+      d.style = "animation: fadeInLeft 1.2s forwards;"
+      e.style = "animation: fadeInRight 1.2s forwards;"
+    }
+    if(t > 2900){
+      f.style = "animation: fadeInRight 1.2s forwards;"
+    }
+    if(t > 3090){
+      g.style = "animation: fadeInLeft 1.2s forwards;"
+    }
+    if(t > 3365){
+      h.style = "animation: fadeInLeft 1.2s forwards;"
+    }
+    if(t > 3480){
+      i.style = "animation: fadeInRight 1.2s forwards;"
+    }
+    if(t > 3800){
+      j.style = "animation: fadeIn 1.2s forwards;"
+    }
+    if(t > 3842){
+      k.style = "animation: fadeInLeft 1.2s forwards;"
+    }
+    if(t > 4085){
+      l.style = "animation: fadeInRight 1.2s forwards;"
+    }
+    if(t > 4285){
+      m.style = "animation: fadeIn 1.2s forwards;"
+      n.style = "animation: fadeIn 1.2s forwards;"
+    }
   }
+
+  setInterval('console.log(document.documentElement.scrollTop)',1000)
 </script>
 </html>

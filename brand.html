@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>熟悉的串串</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/animate.css">
 </head>
 
 <body>
@@ -98,12 +99,12 @@
       </div>
       <div class="brandSectionLRSG">
         <div class="brandborder1">
-          <img src="./images/brandLRSG1.png" alt="">
-          <img src="./images/brandLRSG2.png" alt="">
+          <img class="fadeIn1" src="./images/brandLRSG1.png" alt="">
+          <img class="fadeIn2" src="./images/brandLRSG2.png" alt="">
         </div>
         <div class="brandborder2">
-          <img src="./images/brandLRSG3.png" alt="">
-          <img src="./images/brandLRSG4.png" alt="">
+          <img class="fadeIn3" src="./images/brandLRSG3.png" alt="">
+          <img class="fadeIn4" src="./images/brandLRSG4.png" alt="">
         </div>
       </div>
       <p class="brandZYYK">
@@ -137,6 +138,11 @@
     var t = document.documentElement.scrollTop || document.body.scrollTop;
     let a =  document.querySelector(".flex")
     let b =  document.querySelector(".line")
+    let c =  document.querySelector('.fadeIn1')
+    let d =  document.querySelector('.fadeIn2')
+    let e =  document.querySelector('.fadeIn3')
+    let f =  document.querySelector('.fadeIn4')
+    let g =  document.querySelector('.brandSectionDownCPJS>img')
     if(t > 888){
       a.style = " position: fixed; top : 0" 
       b.style = " margin-top :210px"
@@ -144,7 +150,19 @@
       a.style = "" 
       b.style = ""
     }
+    if(t > 2316){
+      c.style="animation: fadeInLeft 1.2s forwards;"
+      d.style="animation: fadeInLeft 1.2s 0.5s forwards;"
+      e.style="animation: fadeInRight 1.2s 0.5s forwards;"
+      f.style="animation: fadeInRight 1.2s  forwards;"
+    }
+    if(t >3132){
+      g.style = "animation: fadeIn 3s forwards;"
+    }
   }
+
+  
+  setInterval('console.log(document.documentElement.scrollTop)',1000)
 </script>
 
 </html>
