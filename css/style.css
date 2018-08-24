@@ -831,16 +831,6 @@ footer>p:nth-child(2) {
   display: flex;
 }
 
-.brandborder1 {
-  border-top: 3px solid #33a5c9;
-  border-bottom: 3px solid #33a5c9;
-}
-
-.brandborder2 {
-  border-top: 3px solid #ff0000;
-  border-bottom: 3px solid #ff0000;
-}
-
 .brandborder2 {
   margin-left: -216px;
 }
